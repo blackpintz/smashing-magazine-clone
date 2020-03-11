@@ -95,7 +95,7 @@ article {
 .article5 {
     grid-column: 1 / 5;
     background-color: #707070;
-    grid-row: 17 / 20;
+    grid-row: 17 / 23;
     margin: 0 10rem;
     border-radius: 1rem;
     display: flex;
@@ -103,3 +103,55 @@ article {
     align-items: center;
     justify-content: center;
 }
+
+.link {
+    grid-column: 1 / 5;
+    margin: 0 auto;
+    padding: 10rem;
+}
+
+.link a {
+    border-bottom: 0.5rem solid #666;
+    line-height: 1.5;
+    letter-spacing: 0.2rem;
+}
+
+.article6 {
+    grid-column: 1 / 5;
+    background-color: #787878;
+    grid-row: 24 / 30;
+     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.article7 {
+    grid-column: 1 / 5;
+    margin: 0 auto;
+}
+
+.community {
+    grid-column: 1 / 5;
+    display: grid;
+    grid-auto-rows: minmax(2rem, auto);
+    grid-template-columns: repeat(2, 1fr);
+    background-color: #C0C0C0;
+    padding-left: 2rem;
+}
+
+.community div {
+     margin-top: 5rem;
+}
+
+.community img {
+    width: 15rem;
+    height: 10rem;
+}
+
+
+
+
+
+
