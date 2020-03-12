@@ -187,3 +187,28 @@ article {
     align-items: center;
     justify-content: center;
 }
+
+footer {
+   display: flex; 
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   background-color:  #696969;
+   color: #fff;
+   height: 35rem;
+}
+
+footer ul {
+    display: inherit;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+footer ul li {
+   margin-right: 2.5rem;
+}
+
+
+
+
+
