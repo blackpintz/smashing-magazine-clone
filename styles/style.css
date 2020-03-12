@@ -150,8 +150,40 @@ article {
     height: 10rem;
 }
 
+.article8 {
+    grid-column: 1 / 5;
+    background-color: #787878;
+    grid-row: 33 / 36;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
 
+.guides {
+    grid-column: 1 / 5;
+    padding: 1rem;
+}
 
+.guides div {
+    margin-right: 20rem;
+    margin-left: 5rem;
+}
 
+.float {
+    float: left;
+}
 
+.article9 {
+    background-color: #C8C8C8;
+}
 
+.article10 {
+    grid-column: 2 / 5;
+    background-color: #787878;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
