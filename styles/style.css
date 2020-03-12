@@ -1,373 +1,373 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 html {
-    font-size: 62.5%;
+  font-size: 62.5%;
 }
 
 header {
-    display: flex;
-    width: 100%;
-    height: 15rem;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 3rem;
-    background-color:  #696969;
-    color: #fff;
+  display: flex;
+  width: 100%;
+  height: 15rem;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 3rem;
+  background-color: #696969;
+  color: #fff;
 }
 
 header h2 {
-    font-size: 3rem;
+  font-size: 3rem;
 }
 
 header small {
-    font-family: 'IM Fell French Canon', serif;
-    font-size: 1.8rem;
+  font-family: 'IM Fell French Canon', serif;
+  font-size: 1.8rem;
 }
 
 header i.fa {
-    font-size: 4rem;
-    padding-left: 2rem;
+  font-size: 4rem;
+  padding-left: 2rem;
 }
 
 main {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-auto-rows: minmax(10rem, auto);
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: minmax(10rem, auto);
 }
 
 .popup {
-    grid-column: 2 / 4;
-    grid-row: 1;
-    z-index: 9;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    background-color: #fff;
-    margin-left: 23rem;
-    margin-right: 23rem;
-    margin-top: 2rem;
-}
-
-.popup h1 {
-    font-size: 5rem;
-}
-
-.red-btn {
-    grid-column: 4 / 5;
-    grid-row: 1;
-    z-index: 9;
-    margin-top: 2rem;
-    margin-left: 10rem;
-    font-weight: 800;
-}
-
-.vitaly {
-    grid-column: 1 / 3;
-    grid-row: 1 / 5;
-    background-color: #7e7e7e;
-}
-
-.main-title {
-    font-size: 3rem;
-    font-weight: 800;
-    padding-top: 20rem;
-}
-
-.main-title i {
-    font-size: 8rem;
-    margin-right: 1rem;
-}
-
-.leo {
-    grid-column: 3 / 5;
-    grid-row: 1 / 5;
-    background-color: #A9A9A9;
-}
-
-.drew {
-    grid-column: 1 / 3;
-    grid-row: 5 / 10;
-    background-color: #939393;
-}
-
-.barry {
-    grid-column: 3 / 5;
-    grid-row: 5 / 10;
-    background-color: #bdbdbd;
-}
-
-.center-elements {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: center;
-    color: #fff;
-    font-weight: 700;
-    font-size: 3rem;
-    line-height: 1.5;
-}
-
-.extra {
-    font-size: 2rem;
-}
-
-article {
-    padding: 1rem;
-    margin: 1rem;
-}
- 
-.article1 {
-    background-color: #C8C8C8;
-    
-}
-
-.article1 h1 {
-    font-size: 3rem;
-    text-decoration: underline;
-}
-
-.article1 small {
-    font-size: 2rem;
-    font-family: 'IM Fell French Canon', serif;
-    font-weight: 700;
-    margin: 0.5rem 0;
-}
-
-.article1 p {
-    margin-top: 1rem;
-}
-
-
-.article2 {
-    background-color: #707070;
-    grid-column: 1 / 4;
-    grid-row: 11 / 16;
-    border-radius: 1rem;
-    text-align: center;
-    color: #fff;
-}
-
-.article2 i {
-    font-size: 30rem;
-}
-
-.article2 h1 {
-    text-decoration: underline;
-}
-
-.article2 a, .article5 a, .article6 a {
-    color: #fff;
-}
-
-.article3 {
-    background-color: #C8C8C8;
-    grid-row: 11 / 16;
-}
-
-.article4 {
-    display: grid;
-    grid-column: 1 / 5;
-    grid-auto-rows: minmax(2rem, auto);
-    grid-template-columns: repeat(3, 1.5fr);
-}
-
-.article4 div {
-    border: 10px solid white;
-    background-color: #C8C8C8;
-}
-
-.article5 {
-    grid-column: 1 / 5;
-    background-color: #707070;
-    grid-row: 17 / 23;
-    margin: 0 10rem;
-    border-radius: 1rem;
-    text-align: center;
-    color: #fff;
-}
-
-.article5 i {
-    font-size: 30rem;
-}
-
-.link {
-    grid-column: 1 / 5;
-    margin: 0 auto;
-    padding: 10rem;
-}
-
-.link a {
-    border-bottom: 0.5rem solid #666;
-    line-height: 1.5;
-    letter-spacing: 0.2rem;
-}
-
-.article6 {
-    grid-column: 1 / 5;
-    background-color: #787878;
-    grid-row: 24 / 30;
-    text-align: center;
-    color: #fff;
-}
-
-.article6 i {
-    font-size: 30rem;
-}
-
-.article7 {
-    grid-column: 1 / 5;
-    margin: 0 auto;
-    display: flex;
-}
-
-.article7 i {
-    font-size: 20rem;
-}
-
-.img-content {
-    margin: 3.5rem 0 0 2rem;
-}
-
-.img-content h3 {
-    font-size: 2rem;
-}
-
-.community {
-    grid-column: 1 / 5;
-    display: grid;
-    grid-auto-rows: minmax(2rem, auto);
-    grid-template-columns: repeat(2, 1fr);
-    background-color: #C0C0C0;
-    padding-left: 2rem;
-}
-
-.community div {
-     margin-top: 5rem;
-}
-
-.community i {
-    font-size: 10rem;
-}
-
-.community h4 {
-    font-size: 2rem;
-}
-
-.community h3 {
-    font-size: 1.5rem;
-}
-
-.community a {
-    color: #000 ;
-}
-
-.article8 {
-    grid-column: 1 / 5;
-    background-color: #787878;
-    grid-row: 33 / 36;
-    display: flex;
-    align-items: flex-start;
-    justify-content: space-around;
-}
-
-.article8 a {
-    color: #fff;
-}
-
-.article8 i {
-    font-size: 20rem;
-}
-
-.guides {
-    grid-column: 1 / 5;
-    padding: 1rem;
-    background-color: #C8C8C8;
-}
-
-.guides div {
-    margin-right: 10rem;
-    margin-left: 5rem;
-}
-
-.float {
-    float: left;
-}
-
-.article9 {
-    background-color: #C8C8C8;
-}
-
-.article9 ul {
-    color: #fff;
-}
-
-.article9 a {
-    color: #fff;
-}
-
-.article10 {
-    grid-column: 2 / 5;
-    background-color: #787878;
-    border-radius: 1rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.article10 i {
-    font-size: 20rem;
-}
-
-.article10 a {
-    color: #fff;
-}
-
-footer {
-   display: flex; 
-   flex-direction: column;
-   justify-content: center;
-   align-items: center;
-   background-color:  #696969;
-   color: #fff;
-   height: 50rem;
+  grid-column: 2 / 4;
+  grid-row: 1;
+  z-index: 9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #fff;
+  margin-left: 23rem;
+  margin-right: 23rem;
+  margin-top: 2rem;
 }
 
 footer h2 {
-    font-size: 4;
+  font-size: 4;
 }
 
-footer ul {
-    display: inherit;
-    flex-wrap: wrap;
-    justify-content: center;
-    color: #fff;
-    padding: 2rem;
+.popup h2 {
+  font-size: 5rem;
 }
 
-footer a {
-    color: #fff;
-    font-size: 2rem;
+.red-btn {
+  grid-column: 4 / 5;
+  grid-row: 1;
+  z-index: 9;
+  margin-top: 2rem;
+  margin-left: 10rem;
+  font-weight: 800;
 }
 
-footer ul li {
-   margin-right: 2.5rem;
-   color: #fff;
+.vitaly {
+  grid-column: 1 / 3;
+  grid-row: 1 / 5;
+  background-color: #7e7e7e;
 }
 
-footer p {
-    font-size: 2rem;
+.main-title {
+  font-size: 3rem;
+  font-weight: 800;
+  padding-top: 20rem;
 }
 
 footer i {
-    font-size: 15rem;
+  font-size: 15rem;
+}
+
+.main-title i {
+  font-size: 8rem;
+  margin-right: 1rem;
+}
+
+.leo {
+  grid-column: 3 / 5;
+  grid-row: 1 / 5;
+  background-color: #a9a9a9;
+}
+
+.drew {
+  grid-column: 1 / 3;
+  grid-row: 5 / 10;
+  background-color: #939393;
+}
+
+.barry {
+  grid-column: 3 / 5;
+  grid-row: 5 / 10;
+  background-color: #bdbdbd;
+}
+
+.center-elements {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  color: #fff;
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.extra {
+  font-size: 2rem;
+}
+
+article {
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.article1 {
+  background-color: #c8c8c8;
+}
+
+.article1 h2 {
+  font-size: 3rem;
+  text-decoration: underline;
+}
+
+.article1 small {
+  font-size: 2rem;
+  font-family: 'IM Fell French Canon', serif;
+  font-weight: 700;
+  margin: 0.5rem 0;
+}
+
+footer p {
+  font-size: 2rem;
+}
+
+.article1 p {
+  margin-top: 1rem;
+}
+
+.article2 {
+  background-color: #707070;
+  grid-column: 1 / 4;
+  grid-row: 11 / 16;
+  border-radius: 1rem;
+  text-align: center;
+  color: #fff;
+}
+
+.article2 i {
+  font-size: 30rem;
+}
+
+.article2 h2 {
+  text-decoration: underline;
+}
+
+footer a {
+  color: #fff;
+  font-size: 2rem;
+}
+
+.article2 a,
+.article5 a,
+.article6 a {
+  color: #fff;
+}
+
+.article3 {
+  background-color: #c8c8c8;
+  grid-row: 11 / 16;
+}
+
+.article4 {
+  display: grid;
+  grid-column: 1 / 5;
+  grid-auto-rows: minmax(2rem, auto);
+  grid-template-columns: repeat(3, 1.5fr);
 }
 
 footer div {
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.article4 div {
+  border: 10px solid white;
+  background-color: #c8c8c8;
+}
+
+.article5 {
+  grid-column: 1 / 5;
+  background-color: #707070;
+  grid-row: 17 / 23;
+  margin: 0 10rem;
+  border-radius: 1rem;
+  text-align: center;
+  color: #fff;
+}
+
+.article5 i {
+  font-size: 30rem;
+}
+
+.link {
+  grid-column: 1 / 5;
+  margin: 0 auto;
+  padding: 10rem;
+}
+
+.link a {
+  border-bottom: 0.5rem solid #666;
+  line-height: 1.5;
+  letter-spacing: 0.2rem;
+}
+
+.article6 {
+  grid-column: 1 / 5;
+  background-color: #787878;
+  grid-row: 24 / 30;
+  text-align: center;
+  color: #fff;
+}
+
+.article6 i {
+  font-size: 30rem;
+}
+
+.article7 {
+  grid-column: 1 / 5;
+  margin: 0 auto;
+  display: flex;
+}
+
+.article7 i {
+  font-size: 20rem;
+}
+
+.img-content {
+  margin: 3.5rem 0 0 2rem;
+}
+
+.img-content h3 {
+  font-size: 2rem;
+}
+
+.community {
+  grid-column: 1 / 5;
+  display: grid;
+  grid-auto-rows: minmax(2rem, auto);
+  grid-template-columns: repeat(2, 1fr);
+  background-color: #c0c0c0;
+  padding-left: 2rem;
+}
+
+.community div {
+  margin-top: 5rem;
+}
+
+.community i {
+  font-size: 10rem;
+}
+
+.community h4 {
+  font-size: 2rem;
+}
+
+.community h3 {
+  font-size: 1.5rem;
+}
+
+.community a {
+  color: #000;
+}
+
+.article8 {
+  grid-column: 1 / 5;
+  background-color: #787878;
+  grid-row: 33 / 36;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+}
+
+.article8 a {
+  color: #fff;
+}
+
+.article8 i {
+  font-size: 20rem;
+}
+
+.guides {
+  grid-column: 1 / 5;
+  padding: 1rem;
+  background-color: #c8c8c8;
+}
+
+.guides div {
+  margin-right: 10rem;
+  margin-left: 5rem;
+}
+
+.float {
+  float: left;
+}
+
+.article9 {
+  background-color: #c8c8c8;
+}
+
+footer ul {
+  display: inherit;
+  flex-wrap: wrap;
+  justify-content: center;
+  color: #fff;
+  padding: 2rem;
+}
+
+.article9 ul {
+  color: #fff;
+}
+
+.article9 a {
+  color: #fff;
+}
+
+.article10 {
+  grid-column: 2 / 5;
+  background-color: #787878;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.article10 i {
+  font-size: 20rem;
+}
+
+.article10 a {
+  color: #fff;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #696969;
+  color: #fff;
+  height: 50rem;
+}
+
+footer ul li {
+  margin-right: 2.5rem;
+  color: #fff;
 }

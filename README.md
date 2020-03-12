@@ -46,9 +46,17 @@ To get a local copy up and running follow these simple example steps.
 - Twitter: [Adetayo Sunkanmi](https://twitter.com/jstloyalty)
 - Linkedin: [Adetayo Sunkanmi](https://www.linkedin.com/in/jstloyalty/)
 
+
+👤 **Author2**
+
+- Github: [Rose Wanjohi](https://github.com/blackpintz)
+- Twitter: [Rose Wanjohi](https://twitter.com/blackpintz)
+
+
+
 ## 🤝 Contributing
 
-Feel free to check the [issues page](https://github.com/jstloyal/Apple-clone/issues).
+Feel free to check the [issues page](https://github.com/blackpintz/smashing-magazine-clone/issues).
 
 Contributions, issues and feature requests are welcome!
 
