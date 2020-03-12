@@ -26,6 +26,11 @@ header small {
     font-size: 1.8rem;
 }
 
+header i.fa {
+    font-size: 4rem;
+    padding-left: 2rem;
+}
+
 main {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -105,6 +110,10 @@ main {
     line-height: 1.5;
 }
 
+.extra {
+    font-size: 2rem;
+}
+
 article {
     padding: 1rem;
     margin: 1rem;
@@ -112,13 +121,45 @@ article {
  
 .article1 {
     background-color: #C8C8C8;
+    
 }
+
+.article1 h1 {
+    font-size: 3rem;
+    text-decoration: underline;
+}
+
+.article1 small {
+    font-size: 2rem;
+    font-family: 'IM Fell French Canon', serif;
+    font-weight: 700;
+    margin: 0.5rem 0;
+}
+
+.article1 p {
+    margin-top: 1rem;
+}
+
 
 .article2 {
     background-color: #707070;
     grid-column: 1 / 4;
     grid-row: 11 / 16;
     border-radius: 1rem;
+    text-align: center;
+    color: #fff;
+}
+
+.article2 i {
+    font-size: 30rem;
+}
+
+.article2 h1 {
+    text-decoration: underline;
+}
+
+.article2 a, .article5 a, .article6 a {
+    color: #fff;
 }
 
 .article3 {
@@ -144,10 +185,12 @@ article {
     grid-row: 17 / 23;
     margin: 0 10rem;
     border-radius: 1rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    text-align: center;
+    color: #fff;
+}
+
+.article5 i {
+    font-size: 30rem;
 }
 
 .link {
@@ -166,16 +209,30 @@ article {
     grid-column: 1 / 5;
     background-color: #787878;
     grid-row: 24 / 30;
-     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    text-align: center;
+    color: #fff;
 }
 
+.article6 i {
+    font-size: 30rem;
+}
 
 .article7 {
     grid-column: 1 / 5;
     margin: 0 auto;
+    display: flex;
+}
+
+.article7 i {
+    font-size: 20rem;
+}
+
+.img-content {
+    margin: 3.5rem 0 0 2rem;
+}
+
+.img-content h3 {
+    font-size: 2rem;
 }
 
 .community {
@@ -191,9 +248,20 @@ article {
      margin-top: 5rem;
 }
 
-.community img {
-    width: 15rem;
-    height: 10rem;
+.community i {
+    font-size: 10rem;
+}
+
+.community h4 {
+    font-size: 2rem;
+}
+
+.community h3 {
+    font-size: 1.5rem;
+}
+
+.community a {
+    color: #000 ;
 }
 
 .article8 {
@@ -212,7 +280,7 @@ article {
 }
 
 .guides div {
-    margin-right: 20rem;
+    margin-right: 10rem;
     margin-left: 5rem;
 }
 
