@@ -134,6 +134,12 @@ article {
   grid-template-columns: repeat(3, 1.5fr);
 }
 
+footer div {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
 .article1 div {
   background-color: #c8c8c8;
   border: 1rem solid white;
@@ -200,12 +206,6 @@ footer a {
   grid-template-columns: repeat(3, 1.5fr);
 }
 
-footer div {
-  width: 100%;
-  display: flex;
-  justify-content: space-around;
-}
-
 .article4 div {
   border: 10px solid white;
   background-color: #c8c8c8;
@@ -236,6 +236,7 @@ footer div {
   border-bottom: 0.5rem solid #666;
   line-height: 1.5;
   letter-spacing: 0.2rem;
+  color: #000;
 }
 
 .article6 {
@@ -252,8 +253,9 @@ footer div {
 
 .article7 {
   grid-column: 1 / 5;
-  margin: 0 auto;
+  margin: 0 1rem 0.5rem 1rem;
   display: flex;
+  background-color: #989898;
 }
 
 .article7 i {
@@ -318,15 +320,8 @@ footer div {
   grid-column: 1 / 5;
   padding: 1rem;
   background-color: #c8c8c8;
-}
-
-.guides div {
-  margin-right: 10rem;
-  margin-left: 5rem;
-}
-
-.float {
-  float: left;
+  display: flex;
+  justify-content: space-between;
 }
 
 .article9 {
