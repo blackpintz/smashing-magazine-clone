@@ -128,7 +128,16 @@ article {
 }
 
 .article1 {
+  display: grid;
+  grid-column: 1 / 5;
+  grid-auto-rows: minmax(2rem, auto);
+  grid-template-columns: repeat(3, 1.5fr);
+}
+
+.article1 div {
   background-color: #c8c8c8;
+  border: 1rem solid white;
+  padding: 1rem;
 }
 
 .article1 h2 {
@@ -200,6 +209,7 @@ footer div {
 .article4 div {
   border: 10px solid white;
   background-color: #c8c8c8;
+  padding: 1rem;
 }
 
 .article5 {
